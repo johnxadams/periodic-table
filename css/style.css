@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 16px;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+div {
+    width: 90vw;
+    height: 80vh;
+    background-color: rgba(128, 128, 128, 0.322);
+}
+table {
+    width: 90%;
+    height: 80%;
+}
+
+td {
+    width: 2rem;
+    height: 2rem;
+    border: 2px darkred solid;
+}
